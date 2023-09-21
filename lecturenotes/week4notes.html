@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week 4 Forms and Tables</title>
+        <style>
+            td, th {border: 1px solid black;}
+        </style>
+    </head>
+    <body>
+        <h1>Tables and Forms</h1>
+        <h2>Table</h2>
+        <table>
+            <caption>World Population</caption>
+            <tr>
+                <th>Country</th> <!-- th tag is for headers/meta -->
+                <th>Population</th>
+                <th>% of WOrld Population</th>
+            </tr>
+            <tr>
+                <td>China</td> 
+                <td>1,403,830,640</td>
+                <td>18%</td>
+            </tr>
+            <tr>
+                <td>India<td
+
+            </tr>
+        </table>
+        <h2>Forms</h2>
+        <form action="" Methods="post">
+            <label for="fullname">Full name:</label><br>
+            <input type="text" id="fullname" name="Full Name"><br>
+            <label>Special Instructions:</label><br>
+            <textarea id="instructions" name="instructions" rows="3" cols="60">
+            </textarea>
+            <label>pickup</label>
+            <input type="radio" id="pickup" name="pickupdelivery" value="delivery">
+            <label>delivery</label>
+
+            <input type="checkbox" id="extrasauce" name="extrasauce" 
+            value="needs extra sauce">
+            <p>Do you wnt extra sauce?</p>
+            <label for="extrasauce">extra sauce</label>
+
+            <label>Neighborhood</label>
+            <select id="neighborhood" name="neighborhood">
+                <option></option>
+                <option value="westcott">Westcott</option>
+                <option value="downtown">Downtown</option>
+                <option value="eastwood">Eastwood</option>
+            </select>
+            <input type="submit" value="send form">
+        </form>
+    </body>
+</html>
