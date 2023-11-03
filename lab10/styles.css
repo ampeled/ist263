@@ -9,3 +9,10 @@ nav a:hover {background-color: #f71303;}
 p {
     color:rgb(138, 125, 125)
 }
+.row1, .row2 {
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    nav a {display: 100%;}
+    nav a {display: block;}
+}
