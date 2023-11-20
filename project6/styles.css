@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- You can link your external stylesheet here -->
+    <title>Syracuse Restaurant Reviews</title>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="milestone5.html">Home</a></li>
+            <li><a href="milestone5page2.html">Restaurant Reviews</a></li>
+            <li><a href="milestone5page3.html">Hottest Spots</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Popular Syracuse Restaurants</h2>
+
+            <article>
+                <h2>Pastabilities</h2>
+                <p>
+                    Pastabilities in Syracuse, NY, was fantastic. The pasta was very tasty with many different options. I would recommend the spicy vodka rigatoni as it was my favorite dish. The service was great, and the atmosphere was welcoming. I highly recommend trying their pasta if you're in the area.
+                </p>
+            </article>
+
+            <article>
+                <h2>Faegan's Cafe & Pub</h2>
+                <p>
+                    Faegan's Cafe & Pub in Syracuse offers a lively atmosphere and friendly staff, perfect for a fun night out. Their pub burger is a must-try. Whether you're a local or passing through, it's a great spot for good food and drinks with friends. Don't miss it!
+                </p>
+            </article>
+
+            <article>
+                <h2>Rachel's</h2>
+                <p>
+                    Rachel's at the Sheraton Syracuse offers an elegant dining experience with diverse menu options. The service is excellent, making it a great choice for special occasions. I can't wait to return!
+                </p>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
