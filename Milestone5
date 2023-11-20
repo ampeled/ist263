@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syracuse Restaurant Reviews</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Syracuse Restaurant Reviews</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reviews.html">Restaurant Reviews</a></li>
+            <li><a href="hottest-spots.html">Hottest Spots</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to our website dedicated to exploring and reviewing the best restaurants in Syracuse. We provide detailed reviews and recommendations to help you discover the culinary delights of our city.</p>
+        </section>
+    </main>
+</body>
+</html>
+2. Restaurant Reviews Page (reviews.html):
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syracuse Restaurant Reviews</title>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reviews.html">Restaurant Reviews</a></li>
+            <li><a href="hottest-spots.html">Hottest Spots</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Popular Syracuse Restaurants</h2>
+            <!-- Add your restaurant reviews here -->
+        </section>
+    </main>
+</body>
+</html>
+3. Hottest Spots Page (hottest-spots.html):
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syracuse Restaurant Reviews</title>
+</head>
+<body>
+    <header>
+        <h1>Hottest Spots</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="reviews.html">Restaurant Reviews</a></li>
+            <li><a href="hottest-spots.html">Hottest Spots</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Hottest Spots in Syracuse</h2>
+            <!-- Add a list of the hottest restaurants or spots here -->
+        </section>
+    </main>
+</body>
+</html>
