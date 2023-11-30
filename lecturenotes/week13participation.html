@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    #syracuseDiv {
+      color: black;
+    }
+    #syracuseDiv.orange {
+      color: orange;
+    }
+  </style>
+  <script>
+    function toggleTextAndColor() {
+      const divElement = document.getElementById("syracuseDiv");
+      divElement.classList.toggle("orange");
+      divElement.textContent = divElement.classList.contains("orange") ? "Orange Nation" : "Syracuse University";
+    }
+  </script>
+</head>
+<body>
+
+  <div id="syracuseDiv" onclick="toggleTextAndColor()">Syracuse University</div>
+
+</body>
+</html>
