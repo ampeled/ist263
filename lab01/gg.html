@@ -5,93 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../images/icons8-food-32.png" type="image/png">
+    <title>Syracuse Restaurant Reviews</title>
     <style>
-        body.trending-page {
-            background-color: #fafafa;
+        body.welcome-page {
+            background-color: #f8f8f8;
             margin: 0; /* Remove default body margin */
             font-family: 'Arial', sans-serif; /* Choose a font-family for the entire page */
         }
 
         header {
             background-color: #2c3e50;
-            color: #ffffff;
+            color: #ecf0f1;
             text-align: center;
-            padding: 20px;
-            border-bottom: 2px solid #34495e;
+            padding: 50px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0; /* Remove default margin for h1 */
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px; /* Add margin to separate h1 and p */
         }
 
         nav {
             background-color: #34495e;
-            overflow: hidden;
+            padding: 15px;
             text-align: center;
         }
 
         nav a {
-            display: inline-block;
-            padding: 14px 20px;
-            color: #ffffff;
+            color: #ecf0f1;
             text-decoration: none;
+            padding: 10px;
+            margin: 0 15px;
+            font-size: 1.2em;
         }
 
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 40px;
-            background-color: #fff;
-            border-radius: 15px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        nav a:hover {
+            background-color: #4a6785;
         }
-
-        h1 {
-            color: #3498db;
-            margin-bottom: 20px;
-            font-size: 2em;
-        }
-
-        p {
-            color: #555;
-            font-size: 1.1em;
-        }
-
-        .restaurant {
-            margin-bottom: 30px;
-        }
-
-        .text-container {
-            float: left;
-            width: 30%; /* Adjust the width as needed */
-            padding-right: 20px; /* Add some padding to separate from the main content */
-        }
-
-        /* Add more specific styles for trending places if needed */
-    </style>
-    <nav>
-        <a href="../final project/finalpage1.html">Home</a><span>|</span>
-        <a href="../final project/finalpage2.html">Best Reviews</a><span>|</span>
-        <a href="../final project/finalpage3.html"></a>Top 7 Spots<span>|</span>
-    </nav>
-    <title>Syracuse Restaurant Reviews - Trending</title>
-</head>
-<body class="trending-page">
-    <header>
-        <h1>Discover the Trending Places in Syracuse</h1>
-        <p>Explore the top 7 trending restaurants in Syracuse.</p>
-    </header>
-
-    <div class="text-container">
-        <h2>Honorable Mentions</h2>
-        <ul>
-            <li>Restaurant 1</li>
-            <li>Restaurant 2</li>
-            <!-- Add more honorable mentions as needed -->
-        </ul>
-    </div>
-
-    <section id="trending">
-        <!-- Existing content remains unchanged -->
-
-        <!-- Add more restaurant entries as needed -->
-    </section>
     
+        /* Your existing styles go here */
+
+        /* Additional styles for the image container */
+        .image-container {
+            text-align: center;
+            margin: 20px auto; /* Center the container horizontally */
+        }
+
+        .image-container img {
+            width: 300px; /* Set the desired width for all images */
+            height: auto; /* Maintain the aspect ratio */
+            margin-bottom: 20px; /* Add some space between images */
+        }
+        .centered-text {
+            text-align: center;
+            font-size: 2em;
+            color: #ff6347; /* Tomato color */
+            margin-top: 50px; /* Add space from the top */
+            font-weight: bold; /* Make the text bold */
+            text-transform: uppercase; /* Convert text to uppercase */
+            letter-spacing: 2px; /* Add letter spacing */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+        }
+    </style>
+</head>
+<body class="welcome-page">
+    <header>
+        <h1>Welcome to Syracuse Restaurant Reviews</h1>
+        <p>Discover the best restaurants in Syracuse and make your dining experience memorable!</p>
+    </header>
+    <nav>
+        <a href="../final%20project/finalpage1.html">Home</a><span>|</span>
+        <a href="../final%20project/finalpage2.html">Best Reviews</a><span>|</span>
+        <a href="../final%20project/finalpage3.html">Top 7 Spots</a><span>|</span>
+    </nav>
+        <div class="image-container">
+            <img src="../images/dining 2.jpg" width="300px" Height="250px" alt="image 1">
+            <img src="../images/dining1.webp" width="300px" Height="250px" alt="Image 2">
+            <img src="../images/download.jpg" width="300px" Height="250px" alt="Image 3">
+            <div class="centered-text">Explore Syracuse's top culinary delights on our site! We've handpicked the best-rated restaurants and trending hotspots, serving up flavors that will tantalize your taste buds. Join us in celebrating the city's vibrant food scene, where each bite tells a story of deliciousness. Get ready for a mouthwatering adventure through Syracuse's finest eateries – your next favorite dining spot is just a click away!</div>
+    </div>
 </body>
 </html>
